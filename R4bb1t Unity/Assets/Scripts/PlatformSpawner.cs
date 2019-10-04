@@ -99,7 +99,7 @@ public class PlatformSpawner : MonoBehaviour
 
 
             // getting a random number - how many platforms should spawn?
-            islandNumber = Random.Range(3, 9);
+            islandNumber = Random.Range(2, 6);
 
 
             for (int i = 1; i <= islandNumber; i++)
