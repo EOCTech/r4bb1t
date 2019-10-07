@@ -27,6 +27,8 @@ public class PlatformSpawner : MonoBehaviour
     public GameObject plat7;
     public GameObject plat8;
 
+    public GameObject minimapPlatform;
+
     public List<GameObject> platformPrefabList = new List<GameObject>();
 
     void Start()
@@ -114,6 +116,7 @@ public class PlatformSpawner : MonoBehaviour
                     {
                         plat1 = island1;
                         Instantiate(platformPrefabList[prefabIndex1], island1.transform.position, island1.transform.rotation);
+                        Instantiate(minimapPlatform, island1.transform.position, island1.transform.rotation);
                         print("1");
                     }
                     else
@@ -127,6 +130,7 @@ public class PlatformSpawner : MonoBehaviour
                     {
                         plat2 = island1;
                         Instantiate(platformPrefabList[prefabIndex2], island2.transform.position, island2.transform.rotation);
+                        Instantiate(minimapPlatform, island2.transform.position, island2.transform.rotation);
                         print("2");
                     }
                     else
@@ -140,6 +144,7 @@ public class PlatformSpawner : MonoBehaviour
                     {
                         plat3 = island1;
                         Instantiate(platformPrefabList[prefabIndex3], island3.transform.position, island3.transform.rotation);
+                        Instantiate(minimapPlatform, island3.transform.position, island3.transform.rotation);
                         print("3");
                     }
                     else
@@ -153,6 +158,7 @@ public class PlatformSpawner : MonoBehaviour
                     {
                         plat4 = island1;
                         Instantiate(platformPrefabList[prefabIndex4], island4.transform.position, island4.transform.rotation);
+                        Instantiate(minimapPlatform, island4.transform.position, island4.transform.rotation);
                         print("4");
                     }
                     else
@@ -166,6 +172,7 @@ public class PlatformSpawner : MonoBehaviour
                     {
                         plat5 = island1;
                         Instantiate(platformPrefabList[prefabIndex5], island5.transform.position, island5.transform.rotation);
+                        Instantiate(minimapPlatform, island5.transform.position, island5.transform.rotation);
                         print("5");
                     }
                     else
@@ -179,6 +186,7 @@ public class PlatformSpawner : MonoBehaviour
                     {
                         plat6 = island1;
                         Instantiate(platformPrefabList[prefabIndex6], island6.transform.position, island6.transform.rotation);
+                        Instantiate(minimapPlatform, island6.transform.position, island6.transform.rotation);
                         print("6");
                     }
                     else
@@ -192,6 +200,7 @@ public class PlatformSpawner : MonoBehaviour
                     {
                         plat7 = island1;
                         Instantiate(platformPrefabList[prefabIndex7], island7.transform.position, island7.transform.rotation);
+                        Instantiate(minimapPlatform, island7.transform.position, island7.transform.rotation);
                         print("7");
                     }
                     else
@@ -205,6 +214,7 @@ public class PlatformSpawner : MonoBehaviour
                     {
                         plat8 = island1;
                         Instantiate(platformPrefabList[prefabIndex8], island8.transform.position, island8.transform.rotation);
+                        Instantiate(minimapPlatform, island8.transform.position, island8.transform.rotation);
                         print("8");
                     }
                     else
