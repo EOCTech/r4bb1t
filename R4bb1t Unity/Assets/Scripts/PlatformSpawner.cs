@@ -110,112 +110,104 @@ public class PlatformSpawner : MonoBehaviour
                 // getting a random number - which platform should i attempt to spawn?
                 islandRandom = Random.Range(1, 9);
 
-                if (islandRandom == 1)
+                if (islandRandom == 1 && island1.transform.position.z > 7 && island1.transform.position.z < 142 && island1.transform.position.x > -32 && island1.transform.position.x < 32)
                 {
                     if (plat1 == null)
                     {
                         plat1 = island1;
                         Instantiate(platformPrefabList[prefabIndex1], island1.transform.position, island1.transform.rotation);
                         Instantiate(minimapPlatform, island1.transform.position, island1.transform.rotation);
-                        print("1");
                     }
                     else
                     {
                         i--;
                     }
                 }
-                if (islandRandom == 2)
+                if (islandRandom == 2 && island2.transform.position.z > 7 && island2.transform.position.z < 142 && island2.transform.position.x > -32 && island2.transform.position.x < 32)
                 {
                     if (plat2 == null)
                     {
                         plat2 = island1;
                         Instantiate(platformPrefabList[prefabIndex2], island2.transform.position, island2.transform.rotation);
                         Instantiate(minimapPlatform, island2.transform.position, island2.transform.rotation);
-                        print("2");
                     }
                     else
                     {
                         i--;
                     }
                 }
-                if (islandRandom == 3)
+                if (islandRandom == 3 && island3.transform.position.z > 7 && island3.transform.position.z < 142 && island3.transform.position.x > -32 && island3.transform.position.x < 32)
                 {
                     if (plat3 == null)
                     {
                         plat3 = island1;
                         Instantiate(platformPrefabList[prefabIndex3], island3.transform.position, island3.transform.rotation);
                         Instantiate(minimapPlatform, island3.transform.position, island3.transform.rotation);
-                        print("3");
                     }
                     else
                     {
                         i--;
                     }
                 }
-                if (islandRandom == 4)
+                if (islandRandom == 4 && island4.transform.position.z > 7 && island4.transform.position.z < 142 && island4.transform.position.x > -32 && island4.transform.position.x < 32)
                 {
                     if (plat4 == null)
                     {
                         plat4 = island1;
                         Instantiate(platformPrefabList[prefabIndex4], island4.transform.position, island4.transform.rotation);
                         Instantiate(minimapPlatform, island4.transform.position, island4.transform.rotation);
-                        print("4");
                     }
                     else
                     {
                         i--;
                     }
                 }
-                if (islandRandom == 5)
+                if (islandRandom == 5 && island5.transform.position.z > 7 && island5.transform.position.z < 142 && island5.transform.position.x > -32 && island5.transform.position.x < 32)
                 {
                     if (plat5 == null)
                     {
                         plat5 = island1;
                         Instantiate(platformPrefabList[prefabIndex5], island5.transform.position, island5.transform.rotation);
                         Instantiate(minimapPlatform, island5.transform.position, island5.transform.rotation);
-                        print("5");
                     }
                     else
                     {
                         i--;
                     }
                 }
-                if (islandRandom == 6)
+                if (islandRandom == 6 && island6.transform.position.z > 7 && island6.transform.position.z < 142 && island6.transform.position.x > -32 && island6.transform.position.x < 32)
                 {
                     if (plat6 == null)
                     {
                         plat6 = island1;
                         Instantiate(platformPrefabList[prefabIndex6], island6.transform.position, island6.transform.rotation);
                         Instantiate(minimapPlatform, island6.transform.position, island6.transform.rotation);
-                        print("6");
                     }
                     else
                     {
                         i--;
                     }
                 }
-                if (islandRandom == 7)
+                if (islandRandom == 7 && island7.transform.position.z > 7 && island7.transform.position.z < 142 && island7.transform.position.x > -32 && island7.transform.position.x < 32)
                 {
                     if (plat7 == null)
                     {
                         plat7 = island1;
                         Instantiate(platformPrefabList[prefabIndex7], island7.transform.position, island7.transform.rotation);
                         Instantiate(minimapPlatform, island7.transform.position, island7.transform.rotation);
-                        print("7");
                     }
                     else
                     {
                         i--;
                     }
                 }
-                if (islandRandom == 8)
+                if (islandRandom == 8 && island8.transform.position.z > 7 && island8.transform.position.z < 142 && island8.transform.position.x > -32 && island8.transform.position.x < 32)
                 {
                     if (plat8 == null)
                     {
                         plat8 = island1;
                         Instantiate(platformPrefabList[prefabIndex8], island8.transform.position, island8.transform.rotation);
                         Instantiate(minimapPlatform, island8.transform.position, island8.transform.rotation);
-                        print("8");
                     }
                     else
                     {
